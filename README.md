@@ -23,3 +23,5 @@ gui_test:
   - robot -v ENV_URL_APP:$ENV_URL_APP -v ENV_URL_API:$ENV_URL_API -v BROWSER_MODE:$BROWSER_MODE --escape space:_ --outputDir $ROBOT_REPORTS_DIR $ROBOT_TESTS_DIR
 ```
 Note: $CI_PROJECT_DIR is one of predefined [GitLab environment variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html).
+
+The latest docker image build can be found at [https://hub.docker.com/repository/docker/terinek007/robotframework-gui-rest/](https://hub.docker.com/repository/docker/terinek007/robotframework-gui-rest/).

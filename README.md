@@ -1,6 +1,6 @@
 # robotframework-gui-rest
 
-Docker image containing a Robot Framework installation intended to run in CI pipelines (GitLab, Jenkins,...). Based on [ppodgorsek/docker-robot-framework](https://github.com/ppodgorsek/docker-robot-framework):
+Docker image containing a Robot Framework installation intended to run in CI pipelines (GitLab, Jenkins,...). Based on [ppodgorsek/docker-robot-framework](https://github.com/ppodgorsek/docker-robot-framework) with following changes:
 - RESTinstance library added,
 - tests auto-execution feature disabled (run-tests-in-virtual-screen.sh is not fired after loading image).
 
